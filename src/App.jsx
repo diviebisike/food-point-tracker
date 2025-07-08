@@ -8,7 +8,7 @@ import {HashRouter as Router , Routes, Route} from 'react-router-dom'
 
 import { StatsPage } from './Pages/StatsPage';
 import { CalendarPage } from './Pages/CalendarPage';
-
+import { Layout } from './Components/layout';
 
 function App() {
 
@@ -23,10 +23,13 @@ function App() {
   return (
   <Router>
     <Routes>
-
+    <Route element = {<Layout/>}>
     <Route path = "/" element = {<StatsPage/>}/>
     <Route path = "/CalendarPage" element = {<CalendarPage/>}/>
 
+
+    </Route>
+    
 
     </Routes>
   </Router>

@@ -20,11 +20,6 @@ export function StatsPage() {
                     <h2>$212.31</h2>
                 </div>
             </div>
-
-            {/*Link to Calendar Page*/}
-            <Link to="/CalendarPage" className="calendar-link">
-                CalendarPage
-            </Link>
         </div>
     );
 }

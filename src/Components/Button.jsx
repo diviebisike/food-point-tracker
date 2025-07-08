@@ -8,7 +8,7 @@ export function Button({color}) {
     const[count, setCount] = useState[0]
 
     return(
-        <button syle = {{backgroundColor: color}}>
+        <button onClick ={() => setCount(count+1)} syle = {{backgroundColor: color}}>
             <p>
                 {text}
             </p>

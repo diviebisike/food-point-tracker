@@ -1,14 +1,10 @@
-import { Link } from "react-router-dom"
-import { Button } from "./Button"
+import { Link } from "react-router-dom";
 
 export function Navbar(){
     return (
     <>
-    
-    <Link to="/">StatsPage</Link>
-
-    <Link to="/CalendarPage">CalendarPage</Link>
-    
+    <Link to="/"><button>StatsPage</button></Link>
+    <Link to="/CalendarPage"><button>CalendarPage</button></Link>
     </>
 
     )
