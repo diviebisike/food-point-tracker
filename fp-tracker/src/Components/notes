@@ -1,0 +1,21 @@
+Files should be .jsx
+function ComponentName(){
+    return <div> name </div>;
+}
+
+export default ComponentName
+
+
+
+To use: in app.jsx do import ComponentName from "./components/ComponentName";
+
+then to use do <ComponentName />
+
+
+
+const [nameOfState, function that we are naming to change the value of previous parameter] = useState(initial state like none)
+--> like reg var but when it is changed react knows to rerender page
+
+
+can do array by doing
+const answers = [yes, yes, no];
