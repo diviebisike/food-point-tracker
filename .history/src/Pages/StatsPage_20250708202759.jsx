@@ -45,14 +45,14 @@ export function StatsPage() {
           <Line
             type="monotone"
             dataKey="predicted"
-            stroke="#007bff"  
+            stroke="#007bff"  // blue color
             strokeWidth={3}
             dot={{ r: 4 }}
           />
           <Line
             type="monotone"
             dataKey="actual"
-            stroke="#000000"  
+            stroke="#000000"  // black color
             strokeWidth={3}
             dot={{ r: 4 }}
           />

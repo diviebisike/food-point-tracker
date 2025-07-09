@@ -52,7 +52,7 @@ export function StatsPage() {
           <Line
             type="monotone"
             dataKey="actual"
-            stroke="#000000"  
+            stroke="#000000"  // black color
             strokeWidth={3}
             dot={{ r: 4 }}
           />

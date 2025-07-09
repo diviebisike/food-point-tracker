@@ -4,7 +4,7 @@ import {
 } from 'recharts';
 
 export function StatsPage() {
-
+  // Sample data: date, predicted spending, actual spending
   const data = [
     { date: 'Jan', predicted: 300, actual: 280 },
     { date: 'Feb', predicted: 250, actual: 270 },
@@ -16,7 +16,7 @@ export function StatsPage() {
 
   return (
     <div className="stats-page">
-      
+      {/* Existing code */}
       <h1> Stats Page </h1>
       <div className="stats-boxes">
         <div className="stat-box">
@@ -29,7 +29,7 @@ export function StatsPage() {
         </div>
       </div>
 
-      
+      {/* New graph section */}
       <h2>Spending Habits</h2>
 
       <ResponsiveContainer width="100%" height={300}>
@@ -45,14 +45,14 @@ export function StatsPage() {
           <Line
             type="monotone"
             dataKey="predicted"
-            stroke="#007bff"  
+            stroke="#007bff"  // blue color
             strokeWidth={3}
             dot={{ r: 4 }}
           />
           <Line
             type="monotone"
             dataKey="actual"
-            stroke="#000000"  
+            stroke="#000000"  // black color
             strokeWidth={3}
             dot={{ r: 4 }}
           />
