@@ -3,7 +3,7 @@ import ReactCalendar from '../Components/Calendar';
 export function CalendarPage(){
     return(
     <>
-    <h1>Calendar Page</h1>
+    <h1>Calendar:</h1>
       <div>
         <ReactCalendar/>
       </div>
@@ -11,7 +11,3 @@ export function CalendarPage(){
     </>
       )
 }
-
-
-
-//10:49

@@ -23,14 +23,12 @@ function App() {
   return (
   <Router>
     <Routes>
-    <Route element = {<Layout/>}>
-    <Route path = "/" element = {<StatsPage/>}/>
-    <Route path = "/CalendarPage" element = {<CalendarPage/>}/>
+      <Route element = {<Layout/>}>
+       
+        <Route path = "/" element = {<StatsPage/>}/>
+        <Route path = "/CalendarPage" element = {<CalendarPage/>}/>
 
-
-    </Route>
-    
-
+      </Route>
     </Routes>
   </Router>
   );
