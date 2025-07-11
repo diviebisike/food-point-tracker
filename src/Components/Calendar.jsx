@@ -18,6 +18,14 @@ const ReactCalendar = () => {
                 start.getTime() === value[0].getTime()&&
                 end.getTime() === value[1].getTime()
             );
+            // const overTakes = savedRanges.some(
+            //     ([start,end]) =>
+            //     start.getTime() <= value[0].getTime &&
+            //     end.getTime() >= value[1].getTime
+            // )
+            /////////////////////////////////////////
+            //double counts if it is not exact days so fix that
+            /////////////////////////////////////////
             if(exists)
             {
                 //gotta delete
@@ -31,6 +39,14 @@ const ReactCalendar = () => {
             //aka doesn't exist then add
             else
             {
+                // if(overTakes)
+                // {
+                //     setSavedRanges(savedRanges.filter(
+                //         ([start,end]) =>
+                //         !(start.getTime() === value[0].getTime()&&
+                //         end.getTime() === value[1].getTime())
+                //     ))
+                // }
                 setSavedRanges([...savedRanges, value]);
             }
 
@@ -57,15 +73,6 @@ const ReactCalendar = () => {
     });
     };
 
-    //assign class to those tiles
-    const tileClassName = ({date, view}) =>{
-        if (view != 'month') return null;
-        if (isInAnyRange(date))
-        {
-            return 'react-calendar__tile--active';
-        }
-        return null;
-    };
 
     return (
         <div>
@@ -75,13 +82,15 @@ const ReactCalendar = () => {
 
                 let className = '';
 
+                //need to do a space and then the name because there needs to be a space 
+                //between the names
                   if (date.getMonth() !== activeStartDate.getMonth()){
                     className += ' outside-month';
                   }
                   if (isInAnyRange(date)) {
                     className += ' react-calendar__tile--active';
                   }
-              
+                  //trim takes away leading or trailing spaces
                   return className.trim() || null
                 
               }}
