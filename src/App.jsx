@@ -9,7 +9,7 @@ import {HashRouter as Router , Routes, Route} from 'react-router-dom'
 import { StatsPage } from './Pages/StatsPage';
 import { CalendarPage } from './Pages/CalendarPage';
 import { Layout } from './Components/layout';
-
+import {FoodDataPage} from './Pages/FoodDataPage';
 function App() {
 
   //h1 tag is an html element that designates the main heading of a webpage
@@ -27,7 +27,7 @@ function App() {
        
         <Route path = "/" element = {<StatsPage/>}/>
         <Route path = "/CalendarPage" element = {<CalendarPage/>}/>
-
+        <Route path = "/FoodDataPage" element = {<FoodDataPage/>}/>
       </Route>
     </Routes>
   </Router>
