@@ -91,5 +91,8 @@
   border: none;
   font-family: 'Times New Roman', Times, serif;
   border-radius: 10px;
-  background-color: #ec656523;
+  background-color: rgb(249, 232, 234);
+}
+
+.top-banner{
 }
