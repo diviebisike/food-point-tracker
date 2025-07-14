@@ -3,9 +3,9 @@ import ReactCalendar from '../Components/Calendar';
 export function CalendarPage(){
     return(
     <>
-    <div >
+    <div>
     <h1 className = "top-banner">Calendar</h1>
-    <p >Choose the dates you will not be at Duke:</p>
+    <p className ="basic">Choose the dates you will not be at Duke:</p>
       <div>
         <ReactCalendar/>
       </div>

@@ -76,36 +76,62 @@
 
 .button-aesthetic{
   height: 100%;
-  border: none;
+  border-radius: 10px;
+  border-color: rgba(196, 193, 193, 0.145);
   font-family: 'Times New Roman', Times, serif;
   background-color: transparent;
+  font-size: larger;
+  text-align: center;
+  width: 100%; 
 }
 
 .navbar {
   position: fixed;
   bottom: 0;           
   width: 100%;
+  border:none;
   height: 60px;
   display: flex;
   justify-content: space-around;
   z-index: 1000;
-  
+    font-size: larger;
+
 }
 
 .link-fix-width{
   flex: 1;
+  border:none;
   font-family: 'Times New Roman', Times, serif;
   border-radius: 10px;
   background-color: rgb(212, 210, 244);
-  
 }
 
 .top-banner{
   background-color: rgb(212, 210, 244);
+  padding:10px;
 }
 
 .chosen-dates{
   background-color: #ec656523;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.submit-button{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.input-button{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.basic{
+  padding:10px ;
+
 }
