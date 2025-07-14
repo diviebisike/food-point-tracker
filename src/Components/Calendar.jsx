@@ -100,13 +100,16 @@ const ReactCalendar = () => {
             <h4>Saved Ranges:</h4>
             <ul>
                 {savedRanges.map(([start, end], i) => (
-                <li key={i}>
+                <li key={i} className = "chosen-dates">
                 {start.toDateString()} — {end.toDateString()}
                 </li>
+                
           ))}
+
             </ul>
             </div>
-     
+            
+
         </div>
     );
 };

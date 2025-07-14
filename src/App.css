@@ -24,28 +24,32 @@
 
 
 .react-calendar__tile--now {
-  background-color: rgba(237, 236, 236, 0.866);
+  background-color: rgba(210, 227, 244, 0.866);
   border-radius: 1.5rem;
 
 }
 
 .react-calendar__navigation {
-  background-color: rgba(237, 236, 236, 0.866);
+  background-color: rgba(210, 227, 244, 0.866);
   margin-bottom: 0px;
   height: 75px;
+
 }
 
 .react-calendar__navigation button{
   font-size: larger;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 590;
+
 }
 .react-calendar__month-view__weekdays{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: large;
   font-weight: 590;
-  background-color: rgba(237, 236, 236, 0.866);
+  background-color: rgba(210, 227, 244, 0.866);
   margin-top: 0px;
+  color: black
+
   
 }
 
@@ -62,6 +66,7 @@
 {
   width: 200px;
   margin: 15px auto;
+  margin-bottom: 100px;
 }
 
 .outside-month {
@@ -84,15 +89,23 @@
   display: flex;
   justify-content: space-around;
   z-index: 1000;
+  
 }
 
 .link-fix-width{
   flex: 1;
-  border: none;
   font-family: 'Times New Roman', Times, serif;
   border-radius: 10px;
-  background-color: rgb(249, 232, 234);
+  background-color: rgb(212, 210, 244);
+  
 }
 
 .top-banner{
+  background-color: rgb(212, 210, 244);
+}
+
+.chosen-dates{
+  background-color: #ec656523;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }

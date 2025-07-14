@@ -2,6 +2,6 @@
 
 export function FoodDataPage(){
  return(
-    <h1> Food Data Page</h1>
+    <h1 className = "top-banner"> Food Data Page</h1>
  )
 }
