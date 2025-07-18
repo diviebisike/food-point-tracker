@@ -10,6 +10,7 @@ import { StatsPage } from './Pages/StatsPage';
 import { CalendarPage } from './Pages/CalendarPage';
 import { Layout } from './Components/layout';
 import {FoodDataPage} from './Pages/FoodDataPage';
+import {HomePage} from './Pages/HomePage';
 function App() {
 
   //h1 tag is an html element that designates the main heading of a webpage
@@ -24,8 +25,9 @@ function App() {
   <Router>
     <Routes>
       <Route element = {<Layout/>}>
-       
-        <Route path = "/" element = {<StatsPage/>}/>
+        
+        <Route path = "/" element = {<HomePage/>}/>
+        <Route path = "/StatsPage" element = {<StatsPage/>}/>
         <Route path = "/CalendarPage" element = {<CalendarPage/>}/>
         <Route path = "/FoodDataPage" element = {<FoodDataPage/>}/>
       </Route>

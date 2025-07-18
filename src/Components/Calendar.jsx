@@ -2,6 +2,7 @@ import Calendar from 'react-calendar';
 import {useState} from 'react';
 import 'react-calendar/dist/Calendar.css';
 import '../App.css';
+import '../CompCal.css';
 
 const ReactCalendar = () => {
     const [range, setRange] = useState(null);

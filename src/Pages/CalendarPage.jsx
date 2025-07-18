@@ -4,9 +4,11 @@ export function CalendarPage(){
     return(
     <>
     <div>
-    <h1 className = "top-banner">Calendar</h1>
+      <div className = "top-banner-default">
+    <h1 className = "default_title">Calendar</h1>
+    </div>
     <p className ="basic">Choose the dates you will not be at Duke:</p>
-      <div>
+      <div className = "complex-cal-wrapper">
         <ReactCalendar/>
       </div>
       </div>

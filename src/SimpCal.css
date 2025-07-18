@@ -1,0 +1,18 @@
+
+.simp-cal-wrapper .react-calendar{
+    width: 250px;
+    font-size: .8rem;
+    transform: scale(0.5);
+    transform-origin: top left;
+    border-radius: 1.5rem;
+    margin:10px;
+}
+
+
+.simp-cal-wrapper .react-calendar__month-view__weekdays abbr{
+    text-decoration: none;
+  }
+
+  .simp-cal-wrapper .react-calendar__tile {
+    color: black;
+  }

@@ -16,8 +16,9 @@ export function StatsPage() {
 
   return (
     <div className="stats-page">
-      
-      <h1 className = "top-banner"> Stats Page </h1>
+      <div className = "top-banner-default">
+        <h1 className = "default_title"> Stats </h1>
+      </div>
       <div className="stats-boxes">
         <div className="stat-box">
           <p>Today's Food Points</p>

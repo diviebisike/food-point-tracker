@@ -12,7 +12,9 @@ export function FoodDataPage(){
  
 return(
     <>
-    <h1 className = "top-banner"> Food Data Page</h1>
+    <div className = "top-banner-default">
+    <h1 className = "default_title"> Food Data Page</h1>
+    </div>
     <div className = "basic">
     <form onSubmit ={handleSubmit}>
         <div>How many food points do you currently have?</div>
