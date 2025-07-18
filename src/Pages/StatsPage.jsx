@@ -2,7 +2,7 @@ import React from "react";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
 } from 'recharts';
-
+import './StatsPage.css';
 export function StatsPage() {
 
   const data = [
@@ -15,10 +15,12 @@ export function StatsPage() {
   ];
 
   return (
-    <div className="stats-page">
-      <div className = "top-banner-default">
+    <div>
+    <div className = "top-banner-default">
         <h1 className = "default_title"> Stats </h1>
       </div>
+    <div className="stats-page">
+      
       <div className="stats-boxes">
         <div className="stat-box">
           <p>Today's Food Points</p>
@@ -59,6 +61,7 @@ export function StatsPage() {
           />
         </LineChart>
       </ResponsiveContainer>
+    </div>
     </div>
   );
 }

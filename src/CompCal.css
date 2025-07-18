@@ -1,12 +1,12 @@
 
 .complex-cal-wrapper .react-calendar {
-    max-width: 300px;
-    width: 300px;
-    margin: 20px auto auto;
-    font-size: 1rem;
+    width: 400px;
+    margin: -45px auto auto;
+    margin-bottom: -40px;
     background-color: white;
     box-shadow: 12px 12px 12px rgba(47, 44, 44, 0.1);
     border-color: rgba(237, 236, 236, 0.866);
+    transform: scale(0.75 );
   }
   
   .complex-cal-wrapper .react-calendar__tile {
@@ -34,14 +34,12 @@
     background-color: rgba(214, 216, 218, 0.866);
     margin-bottom: 0px;
     height: 75px;
-  
   }
   
   .complex-cal-wrapper .react-calendar__navigation button{
     font-size: larger;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 590;
-  
   }
   .complex-cal-wrapper .react-calendar__month-view__weekdays{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

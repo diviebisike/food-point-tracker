@@ -1,5 +1,6 @@
 import SimpleCalendar from "../Components/BasicCal"
 import '../SimpCal.css'
+import { StatsPic } from "../Components/StatsPic"
 
 export function HomePage(){
 
@@ -13,6 +14,9 @@ export function HomePage(){
         <div className = "simp-cal-wrapper">
         <SimpleCalendar/>
         </div>
+        <hr/>
+        <h3 className = "basic"> Tracking & Alerts</h3>
+        <StatsPic />
         </>
     )
 }

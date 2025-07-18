@@ -2,17 +2,37 @@
 .simp-cal-wrapper .react-calendar{
     width: 250px;
     font-size: .8rem;
-    transform: scale(0.5);
+    transform: scale(0.65);
     transform-origin: top left;
     border-radius: 1.5rem;
-    margin:10px;
+    margin: 7px 10px;
+    margin-bottom: -60px;
+    border-color:rgb(225, 221, 221);
 }
 
 
-.simp-cal-wrapper .react-calendar__month-view__weekdays abbr{
+.simp-cal-wrapper .react-calendar__month-view__weekdays abbr
+{
     text-decoration: none;
+}
+
+.simp-cal-wrapper .react-calendar__tile 
+{
+    color: black;
+}
+
+.simp-cal-wrapper .react-calendar__tile--now 
+{
+    background-color: rgba(214, 216, 218, 0.866);
+    border-radius: 1.5rem;
+}
+
+.simp-cal-wrapper .react-calendar__navigation button{
+    font-size: larger;
+    font-weight: 590;
+    margin-bottom: -5px;
   }
 
-  .simp-cal-wrapper .react-calendar__tile {
-    color: black;
+  .simp-cal-wrapper .react-calendar__month-view__weekdays{
+    margin-top: -8px;
   }
