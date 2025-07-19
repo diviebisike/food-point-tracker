@@ -17,6 +17,8 @@ export function HomePage(){
         <hr/>
         <h3 className = "basic"> Tracking & Alerts</h3>
         <StatsPic />
+        <hr/>
+        <h3 className = "basic"> Planning Tools</h3>
         </>
     )
 }

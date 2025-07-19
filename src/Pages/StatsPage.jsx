@@ -2,7 +2,7 @@ import React from "react";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
 } from 'recharts';
-import './StatsPage.css';
+import '../StatsPage.css';
 export function StatsPage() {
 
   const data = [
@@ -31,6 +31,7 @@ export function StatsPage() {
           <h2>$212.31</h2>
         </div>
       </div>
+    
 
       
       <h2>Spending Habits</h2>
@@ -63,5 +64,6 @@ export function StatsPage() {
       </ResponsiveContainer>
     </div>
     </div>
-  );
+    );
+  
 }
