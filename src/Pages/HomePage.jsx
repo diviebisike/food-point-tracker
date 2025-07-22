@@ -10,12 +10,12 @@ export function HomePage() {
         <h3 className="dining_title">DINING BUDGET TOOL</h3>
       </div>
 
-      <h3 className="basic">Tracking & Alerts</h3>
+      <h3 className="basic">Tracking</h3>
       <StatsPic />
 
       <hr />
 
-      <h3 className="basic">Calendar Integration</h3>
+      <h3 className="basic">Calendar</h3>
       <div className="simp-cal-wrapper">
         <SimpleCalendar />
       </div>
