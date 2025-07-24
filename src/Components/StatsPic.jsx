@@ -13,7 +13,7 @@ export function StatsPic(){
         <div className="tracking-stats-wrapper" onClick = {handleClick}>
         <img src = {WeeklySpendingChart} alt = "WeeklySpendingChart" className = "chart-pic"/>
         <div className="daily-points-box">
-          <p>Left to Spend Today</p>
+          <p>Left to Spend Today: </p>
           <h2>$14.67</h2>
         </div>
         </div>

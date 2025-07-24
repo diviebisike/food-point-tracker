@@ -31,7 +31,7 @@ return(
             <h1 className = "duke_title"> Duke </h1>
             <h3 className = "dining_title"> DINING BUDGET TOOL</h3>
         </div>
-        <h3 className = "log-in-button">Log in with Duke NetId</h3>
+        <button className = "log-in-button">Log in with Duke NetId</button>
     </div>
     </>
     )

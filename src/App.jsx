@@ -11,6 +11,7 @@ import { CalendarPage } from './Pages/CalendarPage';
 import { Layout } from './Components/layout';
 import {FoodDataPage} from './Pages/FoodDataPage';
 import {HomePage} from './Pages/HomePage';
+import {DealPage} from './Pages/DealPage';
 function App() {
 
   //h1 tag is an html element that designates the main heading of a webpage
@@ -21,6 +22,7 @@ function App() {
   //em tag emphasizes; can do a tag within a tag
   //strong tag bolds
   //to call
+  console.log("App loaded");
   return (
   <Router>
     <Routes>
@@ -30,6 +32,8 @@ function App() {
         <Route path = "/StatsPage" element = {<StatsPage/>}/>
         <Route path = "/CalendarPage" element = {<CalendarPage/>}/>
         <Route path = "/FoodDataPage" element = {<FoodDataPage/>}/>
+        <Route path = "/DealPage" element = {<DealPage/>}/>
+
       </Route>
     </Routes>
   </Router>

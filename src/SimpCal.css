@@ -3,11 +3,10 @@
     width: 250px;
     font-size: .8rem;
     transform: scale(0.65);
-    transform-origin: top left;
+    transform-origin: center;
     border-radius: 1.5rem;
-    margin: 7px 10px;
-    margin-bottom: -65px;
     border-color:rgb(225, 221, 221);
+    margin-left: -10px;
 }
 
 

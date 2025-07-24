@@ -1,6 +1,8 @@
 import SimpleCalendar from "../Components/BasicCal";
 import "../SimpCal.css";
 import { StatsPic } from "../Components/StatsPic";
+import { ToDealPage } from "../Components/ToDealPage";
+import { ToFED } from "../Components/ToFED";
 
 export function HomePage() {
   return (
@@ -14,15 +16,22 @@ export function HomePage() {
       <StatsPic />
 
       <hr />
-
       <h3 className="basic">Calendar</h3>
-      <div className="simp-cal-wrapper">
-        <SimpleCalendar />
+      <div className = "whole-cal-sect">
+        <div className="simp-cal-wrapper">
+            <SimpleCalendar />
+        </div>
+        <h3 className = "cal-message">Use the calendar to mark the days you will be off campus</h3>
       </div>
 
       <hr />
 
       <h3 className="basic">Planning Tools</h3>
+      <div className="planToolSect">
+      <ToDealPage/>
+      <ToFED/>
+          
+        </div>
     </>
   );
 }
