@@ -2,6 +2,10 @@
 
 export function ToFED(){
     return(
-        <h3 className = "feedDevils">Donate Food Points</h3>
+        <div >
+            <a href = "https://fed.oit.duke.edu/" target = "_blank">
+            <button className = "feedDevils">Donate Food Points</button>
+            </a>
+        </div>
     )
 }
