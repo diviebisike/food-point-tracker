@@ -22,7 +22,6 @@ function App() {
   //em tag emphasizes; can do a tag within a tag
   //strong tag bolds
   //to call
-  console.log("App loaded");
   return (
   <Router>
     <Routes>

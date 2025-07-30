@@ -2,7 +2,10 @@ import React from "react";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
 } from 'recharts';
+import BarChartComp from "../Components/Bar";
 import '../StatsPage.css';
+
+
 export function StatsPage() {
 
   const data = [
@@ -35,6 +38,7 @@ export function StatsPage() {
 
       
       <h2>Spending Habits</h2>
+      <BarChartComp/>
 
       <ResponsiveContainer width="100%" height={300}>
         <LineChart
@@ -62,6 +66,9 @@ export function StatsPage() {
           />
         </LineChart>
       </ResponsiveContainer>
+
+      
+
     </div>
     </div>
     );
