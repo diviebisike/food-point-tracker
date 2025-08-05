@@ -4,6 +4,7 @@ import {
 } from 'recharts';
 import BarChartComp from "../Components/Bar";
 import '../StatsPage.css';
+import { HomeButton } from "../Components/HomeButton";
 
 
 export function StatsPage() {
@@ -21,9 +22,10 @@ export function StatsPage() {
     <div>
     <div className = "top-banner-default">
         <h1 className = "default_title"> Stats </h1>
+        <HomeButton/>
       </div>
-    <div className="stats-page">
       
+    <div className="stats-page">
       <div className="stats-boxes">
         <div className="stat-box">
           <p>Today's Food Points</p>

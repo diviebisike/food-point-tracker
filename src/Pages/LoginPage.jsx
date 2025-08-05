@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { HomeButton } from '../Components/HomeButton'
 
 export function FoodDataPage(){
 
@@ -30,6 +31,7 @@ return(
         <div className = "top-banner-home">
             <h1 className = "duke_title"> Duke </h1>
             <h3 className = "dining_title"> DINING BUDGET TOOL</h3>
+            <HomeButton/>
         </div>
         <button className = "log-in-button">Log in with Duke NetId</button>
     </div>

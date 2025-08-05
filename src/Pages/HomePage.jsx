@@ -15,23 +15,23 @@ export function HomePage() {
       <h3 className="basic">Tracking</h3>
       <StatsPic />
 
-      <hr />
+      
       <h3 className="basic">Calendar</h3>
       <div className = "whole-cal-sect">
-        <div className="simp-cal-wrapper">
-            <SimpleCalendar />
-        </div>
-        <h3 className = "cal-message">Use the calendar to mark the days you will be off campus</h3>
-      </div>
-
-      <hr />
+            <div className="simp-cal-wrapper">
+                <SimpleCalendar />
+            </div>
+            <h3 className = "cal-message">Use the calendar to mark the days you will be off campus</h3>
+     </div>
+     <hr />
+     
 
       <h3 className="basic">Planning Tools</h3>
       <div className="planToolSect">
-      <ToDealPage/>
-      <ToFED/>
+        <ToDealPage/>
+        <ToFED/>
           
-        </div>
+      </div>
     </>
   );
 }

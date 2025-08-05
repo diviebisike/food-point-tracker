@@ -9,7 +9,7 @@ export function ToDealPage(){
     };
 
     return(
-        <div onClick={handleClick}>
+        <div onClick={handleClick} className = "sizeDeals">
             <h3 className = 'mealDealsButton'>$5 Deals</h3>
         </div>
     )
